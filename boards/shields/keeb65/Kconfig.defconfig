@@ -1,0 +1,6 @@
+if SHIELD_KEEB65
+
+config ZMK_KEYBOARD_NAME
+    default "Keeb65"
+
+endif # SHIELD_KEEB65

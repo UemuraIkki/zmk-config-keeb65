@@ -1,0 +1,2 @@
+config SHIELD_KEEB65
+    def_bool $(shield_list_contains,keeb65)
