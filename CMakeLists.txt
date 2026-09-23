@@ -1,0 +1,6 @@
+# keeb65 専用の追加コード(青LED = BLE接続表示)
+if(CONFIG_SHIELD_KEEB65 AND CONFIG_ZMK_BLE)
+  zephyr_library()
+  zephyr_library_sources(src/ble_led.c)
+  zephyr_library_include_directories(${APPLICATION_SOURCE_DIR}/include)
+endif()

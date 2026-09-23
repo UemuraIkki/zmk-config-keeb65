@@ -1,8 +1,8 @@
 file_format: "1"
 id: keeb65
-name: Keeb65
+name: keeb65
 type: shield
 url: https://github.com/UemuraIkki/zmk-config-keeb65
-requires: [seeeduino_xiao_ble]
+requires: [xiao_ble]
 features:
   - keys
